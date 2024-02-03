@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "fa09e408-c90b-477e-91fe-21dd5ba16547",
+		"name": "Collection-1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18992503",
+		"_collection_link": "https://solar-star-569228.postman.co/workspace/assignement~69488cc3-3bee-4779-9454-cb32bdd4da99/collection/18992503-fa09e408-c90b-477e-91fe-21dd5ba16547?action=share&source=collection_link&creator=18992503"
+	},
+	"item": [
+		{
+			"name": "Get Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/users",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
